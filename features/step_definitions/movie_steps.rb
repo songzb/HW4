@@ -3,7 +3,7 @@ Given /the following movies exist/ do |movies_table|
         Movie.create!(movie)
     end
 end 
-Then /the director of "(.*)" should be "(.*)"/ do |title, director|
-   page.should have_content(title)
-   page.should have_content(director)
+Then /^the director of "(.*)" should be "(.*)"$/ do |title_value,director_value|
+  movie = Movie.find_by_title(title_value)
+  expect(movie.director).to eq director_value
 end
