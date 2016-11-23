@@ -1,17 +1,6 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/hw-acceptance-unit-test-cycle/rottenpotatoes/app/models/movie.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        10,
-        null,
-        null
-      ],
       "/home/ubuntu/workspace/hw-acceptance-unit-test-cycle/rottenpotatoes/app/controllers/movies_controller.rb": [
         1,
         null,
@@ -106,9 +95,20 @@
         0,
         null,
         null
+      ],
+      "/home/ubuntu/workspace/hw-acceptance-unit-test-cycle/rottenpotatoes/app/models/movie.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        10,
+        null,
+        null
       ]
     },
-    "timestamp": 1479858913
+    "timestamp": 1479864516
   },
   "RSpec": {
     "coverage": {

@@ -14,7 +14,7 @@ Background: movies in database
   | THX-1138     | R      | George Lucas |   1971-03-11 |
   
 Scenario: destroying a movie
-  When I am on the details page for "Star Wars"
+  When I am on the details page for "THX-1138"
   And I press "Delete"
-  Then I should see "Movie 'Star Wars' deleted."
-  And I should not see "1977-05-25"
+  Then I should see "Movie 'THX-1138' deleted."
+  And I should not see "1971-03-11"
